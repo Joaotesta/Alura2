@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventuras nas Sombras do Mundo</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0 - Introdução -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/iniciando-aventura.jpg" alt="Início da Aventura">
+            <p>Em uma cidade misteriosa, onde as sombras se escondem e os segredos são profundos, Lara e Hugo se encontram por acaso. Ambos possuem habilidades especiais e um destino em comum: descobrir os mistérios de um artefato antigo perdido. Eles decidem unir forças para enfrentar os perigos à frente e desenterrar a verdade.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Floresta das Sombras</button>
+            <button class="btn-proximo" data-proximo="2">Ir até as Ruínas Esquecidas</button>
+        </div>
+
+        <!-- Passo 1 - Floresta das Sombras -->
+        <div class="passo" id="passo-1">
+            <img src="img/floresta-sombras.jpg" alt="Floresta das Sombras">
+            <p>Na Floresta das Sombras, Lara e Hugo enfrentam criaturas misteriosas e armadilhas traiçoeiras. Em meio à escuridão, encontram uma antiga chave que pode ser a chave para abrir um portal secreto. Eles decidem seguir em frente, mas o caminho está cheio de perigos desconhecidos.</p>
+            <button class="btn-proximo" data-proximo="3">Usar a chave para abrir o portal</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar a chave e continuar explorando</button>
+        </div>
+
+        <!-- Passo 2 - Ruínas Esquecidas -->
+        <div class="passo" id="passo-2">
+            <img src="img/ruinas-esquecidas.jpg" alt="Ruínas Esquecidas">
+            <p>Nas Ruínas Esquecidas, Lara e Hugo descobrem inscrições enigmáticas que falam sobre o artefato perdido. Entre os escombros, encontram uma relíquia misteriosa, mas uma armadilha ativa faz com que eles precisem agir rápido. A relíquia pode ser a chave para sua próxima pista.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a relíquia misteriosa</button>
+            <button class="btn-proximo" data-proximo="6">Sair das ruínas e buscar outro caminho</button>
+        </div>
+
+        <!-- Passo 3 - O Portal Secreto -->
+        <div class="passo" id="passo-3">
+            <img src="img/portal-secreto.jpg" alt="Portal Secreto">
+            <p>Usando a chave, Lara e Hugo abrem um portal que os transporta para uma dimensão desconhecida. Ali, eles descobrem que o artefato perdido é uma poderosa arma capaz de controlar o tempo e o espaço. Mas, para conseguir dominá-lo, precisam enfrentar desafios que testam suas habilidades e coragem.</p>
+            <button class="btn-proximo" data-proximo="7">Enfrentar os desafios do portal</button>
+        </div>
+
+        <!-- Passo 4 - Ignorando a Chave -->
+        <div class="passo" id="passo-4">
+            <img src="img/avancando.jpg" alt="Avançando sem a chave">
+            <p>Ao decidir ignorar a chave, Lara e Hugo continuam a jornada por conta própria, explorando outras áreas do mapa. Apesar de encontrarem novas pistas, algo os faz sentir que perderam uma grande oportunidade de avançar mais rapidamente no mistério. Eles retornam à floresta.</p>
+        </div>
+
+        <!-- Passo 5 - Investigando a Relíquia -->
+        <div class="passo" id="passo-5">
+            <img src="img/relíquia-misteriosa.jpg" alt="Relíquia Misteriosa">
+            <p>Ao investigar a relíquia, Lara e Hugo descobrem que ela possui um poder ancestral, capaz de revelar o próximo passo para encontrar o artefato perdido. No entanto, uma força sombria os persegue, obrigando-os a fugir para o próximo local, onde enfrentarão o maior desafio de suas vidas.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar o próximo desafio</button>
+        </div>
+
+        <!-- Passo 6 - Saindo das Ruínas -->
+        <div class="passo" id="passo-6">
+            <img src="img/saindo-ruinas.jpg" alt="Saindo das Ruínas">
+            <p>Depois de escapar da armadilha nas Ruínas, Lara e Hugo decidem seguir por uma trilha secreta encontrada nas proximidades. Eles se sentem mais próximos do artefato, mas ainda enfrentam muitos obstáculos no caminho. A próxima etapa da jornada promete ser ainda mais difícil.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir pela trilha secreta</button>
+        </div>
+
+        <!-- Passo 7 - O Desafio Final -->
+        <div class="passo" id="passo-7">
+            <img src="img/desafio-final.jpg" alt="Desafio Final">
+            <p>No centro de uma caverna misteriosa, Lara e Hugo enfrentam um ser ancestral, guardião do artefato perdido. Para passar, precisam resolver enigmas, lutar contra monstros e, finalmente, provar seu valor. O artefato que procuram tem o poder de mudar o destino do mundo, mas só os mais dignos podem usá-lo.</p>
+            <button class="btn-proximo" data-proximo="8">Desafiar o guardião</button>
+        </div>
+
+        <!-- Passo 8 - O Artefato Perdido -->
+        <div class="passo" id="passo-8">
+            <img src="img/artefato-perdido.jpg" alt="Artefato Perdido">
+            <p>Após derrotar o guardião e passar pelos desafios, Lara e Hugo finalmente encontram o artefato perdido. A força de seu poder é imensa, capaz de alterar os rumos da história e do universo. Mas com grande poder vem grande responsabilidade. Eles devem decidir como usar esse poder sem causar danos irreparáveis.</p>
+            <button class="btn-proximo" data-proximo="9">Usar o poder do artefato</button>
+        </div>
+
+        <!-- Passo 9 - Vitória Final -->
+        <div class="passo" id="passo-9">
+            <img src="img/vitoria-final.jpg" alt="Vitória Final">
+            <p>Com a decisão tomada, Lara e Hugo usam o artefato para restaurar o equilíbrio no mundo. Juntos, eles selam o destino do artefato, garantindo que ele não caia em mãos erradas. Agora, como heróis, podem viver em paz, sabendo que sua coragem e determinação salvaram o mundo.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
